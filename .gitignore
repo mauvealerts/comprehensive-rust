@@ -1,6 +1,7 @@
 # Build artifacts
 /book/
 target/
+/doctest_cache/
 *.bin
 
 # Translation artifacts

@@ -11,6 +11,12 @@ edition = "2021"
 [build]
 extra-watch-dirs = ["po", "third_party"]
 
+[preprocessor.keeper]
+after = ["links"]
+command = "mdbook-keeper"
+manifest_dir = "mdbook-keeper-deps"
+externs = []
+
 [preprocessor.gettext]
 after = ["links"]
 
