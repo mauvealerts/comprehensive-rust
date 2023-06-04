@@ -2,7 +2,7 @@
 
 All language items in Rust can be documented using special `///` syntax.
 
-```rust,editable
+```rust,editable,no_run
 /// Determine whether the first argument is divisible by the second argument.
 ///
 /// If the second argument is zero, the result is false.

@@ -5,6 +5,7 @@ By default, a panic will cause the stack to unwind. The unwinding can be caught:
 ```rust,editable
 use std::panic;
 
+# fn main() {
 let result = panic::catch_unwind(|| {
     println!("hello!");
 });
@@ -14,6 +15,7 @@ let result = panic::catch_unwind(|| {
     panic!("oh no!");
 });
 assert!(result.is_err());
+# }
 ```
 
 * This can be useful in servers which should keep running even if a single

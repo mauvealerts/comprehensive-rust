@@ -5,7 +5,7 @@ is a trait, implemented by objects that represent an operation that may not be
 complete yet. A future can be polled, and `poll` returns a
 [`Poll`](https://doc.rust-lang.org/std/task/enum.Poll.html).
 
-```rust
+```rust,no_run
 use std::pin::Pin;
 use std::task::Context;
 

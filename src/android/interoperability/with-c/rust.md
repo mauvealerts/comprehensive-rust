@@ -4,7 +4,7 @@ Exporting Rust functions and types to C is easy:
 
 _interoperability/rust/libanalyze/analyze.rs_
 
-```rust,editable
+```rust,editable,no_run
 {{#include rust/libanalyze/analyze.rs:analyze_numbers}}
 ```
 

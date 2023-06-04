@@ -9,7 +9,7 @@ Copy the following code to <https://play.rust-lang.org/> and make the tests
 pass. Try avoiding allocating a `Vec` for your intermediate results:
 
 
-```rust
+```rust,no_run
 // TODO: remove this when you're done with your implementation.
 #![allow(unused_variables, dead_code)]
 

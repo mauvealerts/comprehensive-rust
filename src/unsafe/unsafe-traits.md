@@ -6,7 +6,7 @@ particular conditions to avoid undefined behaviour.
 For example, the `zerocopy` crate has an unsafe trait that looks
 [something like this](https://docs.rs/zerocopy/latest/zerocopy/trait.AsBytes.html):
 
-```rust,editable
+```rust,editable,no_run
 use std::mem::size_of_val;
 use std::slice;
 

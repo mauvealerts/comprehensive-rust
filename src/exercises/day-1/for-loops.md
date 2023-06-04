@@ -3,7 +3,9 @@
 We saw that an array can be declared like this:
 
 ```rust
+# fn main() {
 let array = [10, 20, 30];
+# }
 ```
 
 You can print such an array by asking for its debug representation with `{:?}`:

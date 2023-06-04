@@ -2,7 +2,7 @@
 
 Rust has built-in support for documentation tests:
 
-```rust
+```rust,no_run
 /// Shortens a string to the given length.
 ///
 /// ```

@@ -12,6 +12,6 @@
 
 `pl031.rs`:
 
-```rust
+```rust,no_run
 {{#include rtc/src/pl031.rs}}
 ```

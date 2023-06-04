@@ -13,7 +13,7 @@ Paths are resolved as follows:
 A module can bring symbols from another module into scope with `use`.
 You will typically see something like this at the top of each module:
 
-```rust,editable
+```rust,editable,no_run
 use std::collections::HashSet;
 use std::mem::transmute;
 ```

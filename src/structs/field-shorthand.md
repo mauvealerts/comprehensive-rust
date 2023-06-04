@@ -26,7 +26,7 @@ fn main() {
 
 *  The `new` function could be written using `Self` as a type, as it is interchangeable with the struct type name
 
-     ```rust,editable
+     ```rust,editable,no_run
      #[derive(Debug)]
      struct Person {
          name: String,
@@ -40,7 +40,7 @@ fn main() {
      ```    
 * Implement the `Default` trait for the struct. Define some fields and use the default values for the other fields.
 
-     ```rust,editable
+     ```rust,editable,no_run
      #[derive(Debug)]
      struct Person {
          name: String,

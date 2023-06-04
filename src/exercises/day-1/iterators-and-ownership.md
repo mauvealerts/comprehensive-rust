@@ -10,7 +10,7 @@ traits.
 Traits are like interfaces: they describe behavior (methods) for a type. The
 `Iterator` trait simply says that you can call `next` until you get `None` back:
 
-```rust
+```rust,no_run
 pub trait Iterator {
     type Item;
     fn next(&mut self) -> Option<Self::Item>;
@@ -50,7 +50,7 @@ Why is this type used?
 The `Iterator` trait tells you how to _iterate_ once you have created an
 iterator. The related trait `IntoIterator` tells you how to create the iterator:
 
-```rust
+```rust,no_run
 pub trait IntoIterator {
     type Item;
     type IntoIter: Iterator<Item = Self::Item>;
