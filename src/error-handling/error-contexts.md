@@ -4,7 +4,7 @@ The widely used [anyhow](https://docs.rs/anyhow/) crate can help you add
 contextual information to your errors and allows you to have fewer
 custom error types:
 
-```rust,editable,compile_fail
+```rust,editable
 use std::{fs, io};
 use std::io::Read;
 use anyhow::{Context, Result, bail};

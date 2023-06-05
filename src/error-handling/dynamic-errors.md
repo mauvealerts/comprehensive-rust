@@ -3,7 +3,7 @@
 Sometimes we want to allow any type of error to be returned without writing our own enum covering
 all the different possibilities. `std::error::Error` makes this easy.
 
-```rust,editable,compile_fail
+```rust,editable
 use std::fs::{self, File};
 use std::io::Read;
 use thiserror::Error;

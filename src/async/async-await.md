@@ -2,7 +2,7 @@
 
 At a high level, async Rust code looks very much like "normal" sequential code:
 
-```rust,editable,compile_fail
+```rust,editable
 use futures::executor::block_on;
 
 async fn count_to(count: i32) {
