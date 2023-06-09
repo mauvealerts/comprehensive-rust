@@ -15,8 +15,8 @@ extra-watch-dirs = ["po", "third_party"]
 after = ["links"]
 renderers = ["markdown"]
 command = "mdbook-keeper"
-manifest_dir = "mdbook-keeper-deps"
-externs = []
+manifest_dir = "."
+externs = ["anyhow", "futures", "thiserror"]
 
 [preprocessor.gettext]
 after = ["links"]
